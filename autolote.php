@@ -47,7 +47,7 @@ function register_autolote() {
         'hierarchical' => true,
         'description' => 'Búqueda avanzada de autos',
         'supports' => array( 'title', 'editor', 'thumbnail', 'comments', 'revisions', 'page-attributes' ),
-        'taxonomies' => array( 'marcas', 'anio', 'rango', 'estado',  ),
+        'taxonomies' => array( 'marcas', 'anio', 'rango', 'tipo', 'estado', 'carroceria', 'color', 'conbustible', 'transmicion', 'traccion' ),
         'public' => true,
         'show_ui' => true,
         'show_in_menu' => true,
