@@ -263,7 +263,7 @@ function create_autolote_pages()
         'post_date' => date('Y-m-d H:i:s'),
         'post_name' => 'autolote',
         'post_status' => 'publish',
-        'post_title' => 'Auto Lote',
+        'post_title' => 'Autos',
         'post_type' => 'page',
     );
     
